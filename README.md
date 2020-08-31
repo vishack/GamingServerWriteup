@@ -38,20 +38,8 @@ STEP 2:
 
 Running gobuster:
 
-root@vish:~/TryHackMe# gobuster dir -u http://10.10.246.20/ --wordlist /home/security/SecLists/Discovery/Web-Content/common.txt 
-===============================================================
-Gobuster v3.0.1
-by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
-===============================================================
-[+] Url:            http://10.10.246.20/
-[+] Threads:        10
-[+] Wordlist:       /home/security/SecLists/Discovery/Web-Content/common.txt
-[+] Status codes:   200,204,301,302,307,401,403
-[+] User Agent:     gobuster/3.0.1
-[+] Timeout:        10s
-===============================================================
-2020/08/31 16:54:17 Starting gobuster
-===============================================================
+gobuster dir -u http://10.10.246.20/ --wordlist /home/security/SecLists/Discovery/Web-Content/common.txt
+
 /.hta (Status: 403)
 /.htaccess (Status: 403)
 /.htpasswd (Status: 403)
@@ -60,9 +48,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 /<<hidden-text>> (Status: 301)
 /<<hidden-text>> (Status: 403)
 /<<hidden-text>> (Status: 301)
-===============================================================
-2020/08/31 16:56:08 Finished
-===============================================================
+
   
  ----------------------------------------------------------------- Screenshot 1 -------------------------------------------------------
  
@@ -175,7 +161,7 @@ uid=0(root) gid=0(root)
 <<hidden-root-flag>>
 /mnt/root/root #
   
-  Thanks for reading this.
+Thanks for reading this.
 
 
 

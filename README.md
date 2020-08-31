@@ -1,6 +1,7 @@
 # GamingServerWriteup
 
 Try Hack Me Writeup — GamingServer
+[Link to try hack me of GamingServer room](https://tryhackme.com/room/gamingserver) 
 
 Hello Guys , I am Vishal Kumar. My username on THM is “vishack56”.
 
